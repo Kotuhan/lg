@@ -56,7 +56,7 @@ var process = (onlySelected = false, minLvl = 0, maxLvl = 12) => {
       return acc;
     }
 
-    if (lvl <= minLvl || lvl >= maxLvl) {
+    if (lvl < minLvl || lvl > maxLvl) {
       return acc;
     }
 
